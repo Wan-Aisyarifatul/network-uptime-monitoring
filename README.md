@@ -15,18 +15,21 @@ This project combines **network monitoring** (ping-based uptime checks, latency 
 - **SQL** — aggregate queries (`GROUP BY`, `CASE WHEN`, `AVG`, conditional filtering) for uptime calculation and anomaly detection
 
 ## How to Run
-\`\`\`bash
+​```bash
 pip install -r requirements.txt
 
 python uptime_monitor.py    # let it run (e.g. 15-30 min), then Ctrl+C to stop
 python audit_report.py      # generates report, CSV, and chart
-\`\`\`
+​```
 
 Outputs after running:
 - `network_monitor.db` — raw ping log data
 - `alerts.log` — timestamped alerts for downtime / high latency
 - `uptime_report.csv` — summary table (uptime %, latency stats per host)
 - `uptime_chart.png` — response time trend chart
+
+## Sample Output
+![Uptime Chart](uptime_chart.png)
 
 ## Configuration
 Edit `config.json` to change monitored hosts, check frequency, or the latency alert threshold — no code changes needed:
