@@ -1,0 +1,5 @@
+target,total_checks,up_count,down_count,uptime_pct,avg_latency_ms,max_latency_ms
+1.1.1.1,34,34,0,100.0,10.24,16.9
+8.8.8.8,34,34,0,100.0,15.81,25.93
+github.com,34,34,0,100.0,19.86,32.34
+google.com,34,34,0,100.0,12.22,19.48

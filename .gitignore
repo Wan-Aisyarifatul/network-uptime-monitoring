@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Live-run data (not sample data)
+network_monitor.db
+alerts.log
+
+# OS files
+.DS_Store
+Thumbs.db
