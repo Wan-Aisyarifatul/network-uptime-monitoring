@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 ping3>=4.0.4
 matplotlib>=3.7.0
+=======
+ping3
+matplotlib
+>>>>>>> a5464d5e63d1991adf80a5953b87006c34430dbc

@@ -9,15 +9,15 @@ This project combines **network monitoring** (ping-based uptime checks, latency 
 ## Architecture / Workflow
 
 config.json
-     │
-     ▼
+│
+▼
 uptime_monitor.py ──(ping targets)──▶ network_monitor.db (SQLite)
-                                              │
-                                              ▼
-                                      audit_report.py
-                                     /       │        \
-                                    ▼        ▼         ▼
-                          uptime_report.csv  uptime_chart.png  alerts.log
+│
+▼
+audit_report.py
+/ │
+▼ ▼ ▼
+uptime_report.csv uptime_chart.png alerts.log
 
 ## Tech Stack
 
@@ -109,3 +109,4 @@ Edit `config.json` to change monitored hosts, check frequency, or the latency al
 ## Author
 
 Wan Aisyarifatul Nor Binti Wan Aziz
+[LinkedIn](https://www.linkedin.com/in/wan-aisyarifatul-nor-41a28b235) | [GitHub](https://github.com/Wan-Aisyarifatul)
